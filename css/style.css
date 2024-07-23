@@ -1,0 +1,26 @@
+/* Start Global Rules */
+:root {
+	--mainColor: #000;
+	--mainFontFamilly: "Open Sans", sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: var(--mainFontFamilly);
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+/* End Global Rules */
